@@ -290,6 +290,7 @@ hr {
     margin: 40px;
     box-shadow: 3px 3px 3px var(--primaria);
     border-radius: 3px;
+    transition: 3s;
 }
 
 .banner:hover {
