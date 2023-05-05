@@ -280,7 +280,7 @@ hr {
 
 /* Estilizando o banner do catálogo */
 .banner {
-    background-image: url(/img/super.mario.webp);
+    background-image: url(img/super.mario.webp);
     background-size: cover;
     height: 700px;
     display: flex;
@@ -427,23 +427,23 @@ h3 {
 
 /* Estilizando os gifs */
 .mario:hover {
-    content: url(/img/mario.gif);
+    content: url(img/mario.gif);
 }
 .proj-adam:hover {
-    content: url(/img/adamproject.gif)
+    content: url(img/adamproject.gif)
 }
 .ponte-tera:hover {
-    content: url(/img/ponteterabitia.gif);
+    content: url(img/ponteterabitia.gif);
 }
 .outer:hover {
-    content: url(/img/outer.banks.gif);
+    content: url(img/outer.banks.gif);
 }
 
 
 /* Responsividade */
 @media (max-width: 500px) {
-    .ca {
-        flex-direction: row;
+    .cabecalho-inicio {
+        min-width: 100%;
     }
     .poster1 {
         min-width: 100%;
